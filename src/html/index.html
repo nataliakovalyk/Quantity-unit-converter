@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="SitePoint" />
+
+    <link rel="stylesheet" href="css/main.css?v=1.0" />
+  </head>
+
+  <body>
+    <div id="container">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Konwerter jednostek ilośći</legend>
+          <br />
+          <label id="head">Podaj ilość:</label>
+          <input type="text" id="num" name="convert" />
+          <div id="selectFields">
+            <label id="units">z</label>
+            <select id="unitsA">
+              <option value="g">g</option>
+              <option value="kg" selected>kg</option>
+              <option value="ml">ml</option>
+              <option value="teaspoon">teaspoon</option>
+              <option value="spoon">spoon</option>
+              <option value="ounce">ounce</option>
+              <option value="glass">glass</option>
+            </select>
+            <label class="units">na</label>
+            <select id="unitsB">
+              <option value="g" selected>g</option>
+              <option value="kg">kg</option>
+              <option value="ml">ml</option>
+              <option value="teaspoon">teaspoon</option>
+              <option value="spoon">spoon</option>
+              <option value="ounce">ounce</option>
+              <option value="glass">glass</option>
+            </select>
+          </div>
+        </fieldset>
+      </form>
+      <div id="score">
+        <p>Wynik:</p>
+        <span></span>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
